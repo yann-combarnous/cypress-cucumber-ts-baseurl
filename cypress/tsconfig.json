@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["./**/*.ts"],
+  "exclude": [],
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "types": [
+      "cypress",
+      "node",
+    ],
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "allowJs": true,
+    "noEmit": true,
+    "target": "ES2015"
+  }
+}

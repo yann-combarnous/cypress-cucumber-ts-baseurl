@@ -1,0 +1,1 @@
+export const findStr = (str:string, search:string) => str.includes(search);
